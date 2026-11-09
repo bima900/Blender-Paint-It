@@ -1,0 +1,16 @@
+schema_version = "1.0.0"
+
+id = "paint_layers"
+version = "0.1.0"
+name = "Blender Paint It"
+tagline = "Substance Painter-style paint layers and masks"
+maintainer = "bima900"
+type = "add-on"
+website = "https://github.com/bima900/Blender-Paint-It"
+
+blender_version_min = "4.2.0"
+
+license = ["SPDX:GPL-3.0-or-later"]
+
+[permissions]
+files = "Save paint layer images to the textures folder next to the .blend file"
